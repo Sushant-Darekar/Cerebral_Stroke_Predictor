@@ -1,0 +1,30 @@
+.diagnosis {
+  color: #fff;
+  padding: 0.2em 0.5em;
+  border-radius: 0.5em;
+}
+
+.diagnosis.benign {
+  background-color: #01DB4B;
+  font-size:24px;
+}
+
+.diagnosis.malicious {
+  background-color: #ff4b4b;
+  font-size:24px;
+}
+
+.assist {
+  margin-top : 25px;
+  color: white;
+}
+
+.prediction-output {
+  background-color: #7E99AB;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+
