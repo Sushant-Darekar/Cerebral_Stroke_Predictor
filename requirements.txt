@@ -1,0 +1,6 @@
+imbalanced_learn==0.12.3
+numpy==2.0.1
+pandas==2.2.2
+scikit_learn==1.4.2
+streamlit==1.32.2
+xgboost==2.1.0
