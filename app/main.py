@@ -76,7 +76,7 @@ def add_sidebar():
             input_dict[key] = st.sidebar.slider(
                 label,
                 min_value=float(50),
-                max_value=float(250),
+                max_value=float(200),
                 value=float(90)
             )
         else:  
