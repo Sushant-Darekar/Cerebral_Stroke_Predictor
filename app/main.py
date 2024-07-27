@@ -57,7 +57,7 @@ def add_sidebar():
         ("Heart Disease", "heart_disease", [0, 1]),
         ("Gender", "gender", ['Male', 'Female']),
         ("Ever Married", "ever_married", ['No', 'Yes']),
-        ("Work Type", "work_type", ['Children', 'Government Job', 'Never Worked', 'Private', 'Self-employed']),
+        ("Work Type", "work_type", ['Government Job', 'Children', 'Never Worked', 'Private', 'Self-employed']),
         ("Residence Type", "Residence_type", ['Rural', 'Urban']),
         ("Smoking Status", "smoking_status", ['formerly smoked', 'never smoked', 'smokes', 'Missing'])
     ]
@@ -123,7 +123,7 @@ def add_predictions(input_data):
     encoders = {
         "gender": LabelEncoder().fit(['Male', 'Female']),
         "ever_married": LabelEncoder().fit(['No', 'Yes']),
-        "work_type": LabelEncoder().fit(['Children', 'Government Job', 'Never Worked', 'Private', 'Self-employed']),
+        "work_type": LabelEncoder().fit(['Government Job', 'Children', 'Never Worked', 'Private', 'Self-employed']),
         "Residence_type": LabelEncoder().fit(['Rural', 'Urban']),
         "smoking_status": LabelEncoder().fit(['formerly smoked', 'never smoked', 'smokes', 'Missing'])
     }
